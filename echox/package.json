@@ -1,0 +1,32 @@
+{
+  "name": "@devkelvinr/echox",
+  "version": "1.0.0",
+  "description": "a CLI tool to echo your text",
+  "main": "src/cli.ts",
+  "bin": {
+    "echox": "bin/echox",
+    "@devkelvinr/echox": "bin/echox"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "echox",
+    "cli"
+  ],
+  "author": "Kelvin Rojas",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.15",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "esm": "3.2.25"
+  }
+}
